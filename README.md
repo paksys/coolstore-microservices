@@ -230,7 +230,7 @@ Waiting for the container provision completed
 9. Clean up `coolstore` chart as
 
 ```
-> kubectl delete -f deployment/istio/coolstore.local.yaml
+> kubectl delete -f deploys/k8s/coolstore.local.yaml
 > helm delete coolstore-istio --purge
 > helm delete istio --purge
 ```
